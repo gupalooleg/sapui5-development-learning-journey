@@ -8,6 +8,8 @@
     <Page title="Flight Customers">
         <content>
             <Panel
+                class="sapUiResponsiveMargin sapUiHideOnPhone"
+                width="auto"
                 headerText="New Customer"
                 expandable="true"
                 expanded="true"
@@ -52,7 +54,6 @@
                             <Input value="" />
                             <Label text="Telephone" />
                             <Input value="" />
-
                         </f:content>
                     </f:SimpleForm>
                 </content>
