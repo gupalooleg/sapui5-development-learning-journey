@@ -69,6 +69,10 @@
                     "bundleName": "<...>"
                 }
             },
+            "": {
+                "type": "sap.ui.model.json.JSONModel",
+                "uri": "model/data.json"
+            },
             "ODataModel": {
                 "dataSource": "<...>",
                 "settings": {
