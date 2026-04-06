@@ -83,6 +83,7 @@
                 }
             }
         },
+        "handleValidation": true,
         "resources": {
             "css": [
                 {
