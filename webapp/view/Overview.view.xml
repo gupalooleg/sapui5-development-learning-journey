@@ -4,6 +4,7 @@
     xmlns:f="sap.ui.layout.form"
     xmlns:core="sap.ui.core"
     xmlns="sap.m"
+    core:require="{formatter: 'sap/training/exc/model/formatter'}"
 >
     <Page title="Flight Customers">
         <content>
@@ -177,7 +178,12 @@
                                     }
                                 }"
                             />
-                            <Text text="{Class}" />
+                            <Text
+                                text="{
+                                    path: 'Class',
+                                    formatter: 'formatter.classText'
+                                }"
+                            />
                             <ObjectNumber
                                 number="{
                                     parts: [
