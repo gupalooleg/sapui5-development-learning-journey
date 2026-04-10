@@ -5,10 +5,6 @@
     displayBlock="true"
 >
     <Shell>
-        <App>
-            <pages>
-                <mvc:XMLView viewName="sap.training.exc.view.Overview" />
-            </pages>
-        </App>
+        <App id="app"/>
     </Shell>
 </mvc:View>
