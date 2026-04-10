@@ -34,7 +34,9 @@
                             </Toolbar>
                         </f:toolbar>
                         <f:content>
-                            <core:Title text="{i18n>generalDataFormContainerTitle}" />
+                            <core:Title
+                                text="{i18n>generalDataFormContainerTitle}"
+                            />
                             <Label text="{i18n>formLabelText}" />
                             <Input value="{customer>/Form}" />
                             <Label text="{i18n>nameLabelText}" />
@@ -51,7 +53,9 @@
                                 }"
                             />
 
-                            <core:Title text="{i18n>addressDataFormContainerTitle}" />
+                            <core:Title
+                                text="{i18n>addressDataFormContainerTitle}"
+                            />
                             <Label text="{i18n>streetLabelText}" />
                             <Input value="{customer>/Street}" />
                             <Label text="{i18n>postcodeLabelText}" />
@@ -61,7 +65,9 @@
                             <Label text="{i18n>countryLabelText}" />
                             <Input value="{customer>/Country}" />
 
-                            <core:Title text="{i18n>contactDataFormContainerTitle}" />
+                            <core:Title
+                                text="{i18n>contactDataFormContainerTitle}"
+                            />
                             <Label text="{i18n>emailLabelText}" />
                             <Input value="{customer>/Email}" />
                             <Label text="{i18n>phoneLabelText}" />
@@ -121,14 +127,20 @@
                             <Text text="{i18n>countryLabelText}" />
                         </header>
                     </Column>
-                    <Column minScreenWidth="Tablet" demandPopin="true">
+                    <Column
+                        minScreenWidth="Tablet"
+                        demandPopin="true"
+                    >
                         <header>
                             <Text text="{i18n>emailLabelText}" />
                         </header>
                     </Column>
                 </columns>
                 <items>
-                    <ColumnListItem>
+                    <ColumnListItem
+                        type="Navigation"
+                        press=".onNavToDetails"
+                    >
                         <cells>
                             <ObjectIdentifier title="{CustomerName}" />
                             <Text text="{Street}" />
@@ -165,17 +177,26 @@
                             <Text text="{i18n>fldateColumnHeader}" />
                         </header>
                     </Column>
-                    <Column minScreenWidth="Desktop" demandPopin="true">
+                    <Column
+                        minScreenWidth="Desktop"
+                        demandPopin="true"
+                    >
                         <header>
                             <Text text="{i18n>classColumnHeader}" />
                         </header>
                     </Column>
-                    <Column minScreenWidth="Tablet" demandPopin="true">
+                    <Column
+                        minScreenWidth="Tablet"
+                        demandPopin="true"
+                    >
                         <header>
                             <Text text="{i18n>paymentColumnHeader}" />
                         </header>
                     </Column>
-                    <Column minScreenWidth="Tablet" demandPopin="true">
+                    <Column
+                        minScreenWidth="Tablet"
+                        demandPopin="true"
+                    >
                         <header>
                             <Text text="{i18n>cancellationColumnHeader}" />
                         </header>

@@ -103,6 +103,11 @@
                     "name": "overview",
                     "pattern": "",
                     "target": ["overview"]
+                },
+                {
+                    "name": "detail",
+                    "pattern": "detail",
+                    "target": ["detail"]
                 }
             ],
             "targets": {
@@ -110,6 +115,11 @@
                     "viewId": "overview",
                     "viewName": "Overview",
                     "viewLevel": 1
+                },
+                "detail": {
+                    "viewId": "detail",
+                    "viewName": "Detail",
+                    "viewLevel": 2
                 }                
             }
         },
